@@ -11,10 +11,11 @@ import (
 	"unicode"
 )
 
-const AocRootDir = "../.."
+const AocRootDir = "../../.."
+const Year = "2023"
 const Day = "day01"
 
-var PuzzleInput = filepath.Join(AocRootDir, "inputs", Day, "input.txt")
+var PuzzleInput = filepath.Join(AocRootDir, Year, "inputs", Day, "input.txt")
 
 func main() {
 	puzzleFile, err := filepath.Abs(PuzzleInput)
